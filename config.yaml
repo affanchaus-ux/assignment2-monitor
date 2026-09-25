@@ -1,0 +1,10 @@
+# Assignment 2 - Disk & Process Health Monitor - config file
+
+disk_threshold: 80
+watch_process: sshd
+check_path: /home/ubuntu
+expected_owner: ubuntu:ubuntu
+interval: 30
+log_file: monitor.log
+log_max_bytes: 1000000
+log_backup_count: 3
